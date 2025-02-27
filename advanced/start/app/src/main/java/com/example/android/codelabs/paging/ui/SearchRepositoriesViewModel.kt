@@ -43,6 +43,7 @@ import kotlinx.coroutines.launch
  * ViewModel for the [SearchRepositoriesActivity] screen.
  * The ViewModel works with the [GithubRepository] to get the data.
  */
+@Suppress("OPT_IN_USAGE")
 class SearchRepositoriesViewModel(
     private val repository: GithubRepository,
     private val savedStateHandle: SavedStateHandle
